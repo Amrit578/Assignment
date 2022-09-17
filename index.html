@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Form  -->
+
+    <table>
+        <tr>
+            <td>Input A</td>
+            <td>:</td>
+            <td><input type="text" onblur="findTotal()" name="input_a" class="amount" /></td>
+        </tr>
+        <tr>
+            <td>Input B</td>
+            <td>:</td>
+            <td><input type="text" onblur="findTotal()" name="input_b" class="amount" /></td>
+        </tr>
+        <tr>
+            <td>Input C</td>
+            <td>:</td>
+            <td><input type="text" onblur="findTotal()" name="input_c" class="amount" /></td>
+        </tr>
+
+        <td>SUM</td>
+        <td>:</td>
+        <td><input type="text" name="sum" id="totalordercost" readonly /></td>
+        </tr>
+    </table>
+</body>
+
+</html>
